@@ -89,7 +89,7 @@ http://ec2-54-174-131-205.compute-1.amazonaws.com/API/HDRO_API.php/country_code=
 
 
 
-**Context: ** SADC Countries
+**Context:** SADC Countries
 
 
 
@@ -111,7 +111,7 @@ http://ec2-54-174-131-205.compute-1.amazonaws.com/API/HDRO_API.php/country_code=
 
 Connecting and building networks is always part of our  priorities, please reach out if you have any ideas on collaborative  efforts or any suggestions on ways we could improve our work:
 
-> **Lehlohonolo Makoti, Data Management and Analytics Specialist **
+> Lehlohonolo Makoti, Data Management and Analytics Specialist
 >
 > LinkedIn - https://www.linkedin.com/in/lehlohonolomakoti/
 
