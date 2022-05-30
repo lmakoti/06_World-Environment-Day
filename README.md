@@ -2,7 +2,6 @@
 
 <p align='center'>
 <img src="03_Resources/badge_un_title.png" style="height:35px" alt="un_badge" border="0">
-<img src="03_Resources/badge_sdg4_title.png" style="height:35px" alt="cc_badge" border="0">
 <img src="03_Resources/badge_cc_title.png" style="height:35px" alt="cc_badge" border="0">
 </p>
 <p align="center">
