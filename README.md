@@ -81,13 +81,11 @@ http://ec2-54-174-131-205.compute-1.amazonaws.com/API/HDRO_API.php/country_code=
 
 - **Parameters:**
 
-    ```
+    ```php
     http://api.worldbank.org/v2/country/AGO;BWA;COM;COD;SWZ;LSO;MDG;MWI;MUS;MOZ;NAM;SYC;ZAF;TZA;ZMB;ZWE/indicator/AG.LND.ARBL.ZS?format=jsonstat
     ```
 
     
-
-
 
 **Context:** SADC Countries
 
@@ -107,6 +105,17 @@ http://ec2-54-174-131-205.compute-1.amazonaws.com/API/HDRO_API.php/country_code=
 - Arable land (% of land area): https://data.worldbank.org/indicator/AG.LND.ARBL.ZS
 - Forest area (% of land area): https://data.worldbank.org/indicator/AG.LND.FRST.ZS
 
+**Tufte's Principles on Data Visualisation**
+
+- The representation of numbers, as physically measured on the surface of  the graphic itself, should be directly proportional to the numerical  quantities measured.
+- Clear, detailed, and thorough labeling should be used to defeat  graphical distortion and ambiguity. Write out explanations of the data  on the graphic itself. Label important events in the data.
+- Show data variation, not design variation. 
+- In time-series displays of money, deflated and standardized units of  monetary measurement are nearly always better than nominal units. 
+- The number of information-carrying (variable) dimensions depicted should not exceed the number of dimensions in the data. 
+- Graphics must not quote data out of context.
+
+![https://images-eu.ssl-images-amazon.com/images/I/41lXBygkVwL._SX218_BO1,204,203,200_QL40_ML2_.jpg](https://images-eu.ssl-images-amazon.com/images/I/41lXBygkVwL._SX218_BO1,204,203,200_QL40_ML2_.jpg)
+
 ## Networking
 
 Connecting and building networks is always part of our  priorities, please reach out if you have any ideas on collaborative  efforts or any suggestions on ways we could improve our work:
@@ -119,7 +128,8 @@ Connecting and building networks is always part of our  priorities, please reach
 
 ## Reference 
 
-- 
+- The Visual Display of Quantitative Information, Edward Tufte (1983)
+- https://www.linkedin.com/pulse/edward-tuftes-six-principles-graphical-integrity-radhika-raghu/
 
 ## License
 
