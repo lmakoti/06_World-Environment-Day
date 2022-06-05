@@ -119,7 +119,7 @@ http://ec2-54-174-131-205.compute-1.amazonaws.com/API/HDRO_API.php/country_code=
 
 View Report: <a href="https://app.powerbi.com/view?r=eyJrIjoiMGEyMzA5YzItYjZiNi00MDc3LWI2OTQtMWFhYmI2YTcyMzQ2IiwidCI6IjBhZGMyNjkxLThlNzAtNDNlZi05MTVjLWE5ZWZiMmIxMGY2YSJ9">Link</a>
 
-![report](03_Resources\report.png)
+<p align="center"><img src="03_Resources\report.png" alt="report_image_powerbi"/></p>
 
 ## Networking
 
