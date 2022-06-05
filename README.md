@@ -104,6 +104,30 @@ http://ec2-54-174-131-205.compute-1.amazonaws.com/API/HDRO_API.php/country_code=
 - Arable land (% of land area): https://data.worldbank.org/indicator/AG.LND.ARBL.ZS
 - Forest area (% of land area): https://data.worldbank.org/indicator/AG.LND.FRST.ZS
 
+❤️**Project Pyjstat** (Amazing libary simplified the data-pull tenfold)
+
+**pyjstat** is a python library for **JSON-stat** formatted data manipulation which allows reading and writing JSON-stat [[1\]](https://pypi.org/project/pyjstat/#id4) format with python,using the DataFrame structures provided by the widely accepted pandas library [[2\]](https://pypi.org/project/pyjstat/#id5). The JSON-stat format is a simple lightweight JSON format for data dissemination, currently in its 2.0 version. Pyjstat is inspired in rjstat [[3\]](https://pypi.org/project/pyjstat/#id6), a library to read and write JSON-stat with R, by ajschumacher. Note that, like in the rjstat project, not all features are supported (i.e. not all metadata are converted). **pyjstat** is provided under the Apache License 2.0.
+
+- **Library Documentation**: https://pypi.org/project/pyjstat/
+- **Author**: [Miguel Expósito Martín](mailto:miguel.exposito@gmail.com)
+- **Usage**: `pip install pyjstat`
+
+M extract from the Power Query Editor
+
+```python
+let
+    Source = Python.Execute("from pyjstat import pyjstat#(lf)#(lf)EXAMPLE_URL = 'http://api.worldbank.org/v2/country/All/indicator/AG.LND.ARBL.ZS?format=jsonstat'#(lf)#(lf)# read from json-stat#(lf)dataset = pyjstat.Dataset.read(EXAMPLE_URL)#(lf)#(lf)# write to dataframe#(lf)df = dataset.write('dataframe')#(lf)print(df)#(lf)#(lf)# read from dataframe#(lf)dataset_from_df = pyjstat.Dataset.read(df)#(lf)#(lf)# write to json-stat#(lf)print(dataset_from_df.write())"),
+    df1 = Source{[Name="df"]}[Value],
+    #"Replaced Value" = Table.ReplaceValue(df1,".",",",Replacer.ReplaceText,{"value"}),
+    #"Changed Type" = Table.TransformColumnTypes(#"Replaced Value",{{"value", type number}}),
+    #"Changed Type1" = Table.TransformColumnTypes(#"Changed Type",{{"Year", type date}}),
+    #"Filtered Rows1" = Table.SelectRows(#"Changed Type1", each [Year] >= #date(2010, 1, 1))
+in
+    #"Filtered Rows1"
+```
+
+
+
 **Tufte's Principles on Data Visualisation**
 
 - The representation of numbers, as physically measured on the surface of  the graphic itself, should be directly proportional to the numerical  quantities measured.
@@ -117,7 +141,7 @@ http://ec2-54-174-131-205.compute-1.amazonaws.com/API/HDRO_API.php/country_code=
 
 **PowerBI Report**
 
-View Report: <a href="https://app.powerbi.com/view?r=eyJrIjoiMGEyMzA5YzItYjZiNi00MDc3LWI2OTQtMWFhYmI2YTcyMzQ2IiwidCI6IjBhZGMyNjkxLThlNzAtNDNlZi05MTVjLWE5ZWZiMmIxMGY2YSJ9">Link</a>
+View Report: <a href="https://app.powerbi.com/view?r=eyJrIjoiMGEyMzA5YzItYjZiNi00MDc3LWI2OTQtMWFhYmI2YTcyMzQ2IiwidCI6IjBhZGMyNjkxLThlNzAtNDNlZi05MTVjLWE5ZWZiMmIxMGY2YSJ9">PowerBI Report Link</a>
 
 <p align="center"><img src="03_Resources\report.png" alt="report_image_powerbi"/></p>
 
@@ -133,8 +157,10 @@ Connecting and building networks is always part of our  priorities, please reach
 
 ## Reference 
 
+- https://www.un.org/en/observances/environment-day, UN observance page (2022)
+- https://pypi.org/project/pyjstat/, Project `pyjstat` (Aug 2021, Release: 2.2.1)
 - The Visual Display of Quantitative Information, Edward Tufte (1983)
-- https://www.linkedin.com/pulse/edward-tuftes-six-principles-graphical-integrity-radhika-raghu/
+- https://www.linkedin.com/pulse/edward-tuftes-six-principles-graphical-integrity-radhika-raghu/, Linkedin article on Edward Tufte's design principles
 
 ## License
 
