@@ -119,7 +119,7 @@ http://ec2-54-174-131-205.compute-1.amazonaws.com/API/HDRO_API.php/country_code=
 
 View Report: <a href="https://app.powerbi.com/view?r=eyJrIjoiMGEyMzA5YzItYjZiNi00MDc3LWI2OTQtMWFhYmI2YTcyMzQ2IiwidCI6IjBhZGMyNjkxLThlNzAtNDNlZi05MTVjLWE5ZWZiMmIxMGY2YSJ9">Link</a>
 
-![report](C:\Users\Lehlohonolo Makoti\Documents\Learning & Dev\Data Work Portfolio\UN Data Analytics Portfolio\06_World-Environment-Day\03_Resources\report.png)
+![report](03_Resources\report.png)
 
 ## Networking
 
