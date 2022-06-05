@@ -115,13 +115,19 @@ http://ec2-54-174-131-205.compute-1.amazonaws.com/API/HDRO_API.php/country_code=
 
 ![https://images-eu.ssl-images-amazon.com/images/I/41lXBygkVwL._SX218_BO1,204,203,200_QL40_ML2_.jpg](https://images-eu.ssl-images-amazon.com/images/I/41lXBygkVwL._SX218_BO1,204,203,200_QL40_ML2_.jpg)
 
+**PowerBI Report**
+
+View Report: <a href="https://app.powerbi.com/view?r=eyJrIjoiMGEyMzA5YzItYjZiNi00MDc3LWI2OTQtMWFhYmI2YTcyMzQ2IiwidCI6IjBhZGMyNjkxLThlNzAtNDNlZi05MTVjLWE5ZWZiMmIxMGY2YSJ9">Link</a>
+
+![report](C:\Users\Lehlohonolo Makoti\Documents\Learning & Dev\Data Work Portfolio\UN Data Analytics Portfolio\06_World-Environment-Day\03_Resources\report.png)
+
 ## Networking
 
 Connecting and building networks is always part of our  priorities, please reach out if you have any ideas on collaborative  efforts or any suggestions on ways we could improve our work:
 
-> Lehlohonolo Makoti, Data Management and Analytics Specialist
+> **Website**: https://lmakoti.codepool.tech
 >
-> LinkedIn - https://www.linkedin.com/in/lehlohonolomakoti/
+> **LinkedIn**: https://www.linkedin.com/in/lehlohonolomakoti
 
 
 
